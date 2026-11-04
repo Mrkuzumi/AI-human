@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "server_port": 8766,
+  "audio_device": "plughw:0,0",
+  "upload_token": "",
+  "reconnect_seconds": 3
+}

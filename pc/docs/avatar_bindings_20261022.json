@@ -1,0 +1,1254 @@
+{
+    "bones": [
+        {
+            "humanoid": "Hips",
+            "transform": "J_Bip_C_Hips",
+            "parent": "Root",
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.8953759074211121,
+                "z": 0.004367743618786335
+            },
+            "modelPosition": {
+                "x": 0.0,
+                "y": 0.8953759074211121,
+                "z": 0.004367743618786335
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftUpperLeg",
+            "transform": "J_Bip_L_UpperLeg",
+            "parent": "J_Bip_C_Hips",
+            "localPosition": {
+                "x": -0.06946878135204315,
+                "y": -0.03602468967437744,
+                "z": -0.003311566077172756
+            },
+            "modelPosition": {
+                "x": -0.06946878135204315,
+                "y": 0.8593512177467346,
+                "z": 0.0010561775416135789
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightUpperLeg",
+            "transform": "J_Bip_R_UpperLeg",
+            "parent": "J_Bip_C_Hips",
+            "localPosition": {
+                "x": 0.06946878135204315,
+                "y": -0.03602468967437744,
+                "z": -0.003311566077172756
+            },
+            "modelPosition": {
+                "x": 0.06946878135204315,
+                "y": 0.8593512177467346,
+                "z": 0.0010561775416135789
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftLowerLeg",
+            "transform": "J_Bip_L_LowerLeg",
+            "parent": "J_Bip_L_UpperLeg",
+            "localPosition": {
+                "x": 1.4901161193847657e-8,
+                "y": -0.3647824823856354,
+                "z": -0.007633787579834461
+            },
+            "modelPosition": {
+                "x": -0.06946876645088196,
+                "y": 0.49456873536109927,
+                "z": -0.006577610038220882
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightLowerLeg",
+            "transform": "J_Bip_R_LowerLeg",
+            "parent": "J_Bip_R_UpperLeg",
+            "localPosition": {
+                "x": -1.4901161193847657e-8,
+                "y": -0.3647824823856354,
+                "z": -0.007633787579834461
+            },
+            "modelPosition": {
+                "x": 0.06946876645088196,
+                "y": 0.49456873536109927,
+                "z": -0.006577610038220882
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftFoot",
+            "transform": "J_Bip_L_Foot",
+            "parent": "J_Bip_L_LowerLeg",
+            "localPosition": {
+                "x": 0.00011067092418670654,
+                "y": -0.40844687819480898,
+                "z": -0.024772826582193376
+            },
+            "modelPosition": {
+                "x": -0.06935809552669525,
+                "y": 0.08612185716629029,
+                "z": -0.03135043755173683
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightFoot",
+            "transform": "J_Bip_R_Foot",
+            "parent": "J_Bip_R_LowerLeg",
+            "localPosition": {
+                "x": -0.00011067092418670654,
+                "y": -0.40844687819480898,
+                "z": -0.024772826582193376
+            },
+            "modelPosition": {
+                "x": 0.06935809552669525,
+                "y": 0.08612185716629029,
+                "z": -0.03135043755173683
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "Spine",
+            "transform": "J_Bip_C_Spine",
+            "parent": "J_Bip_C_Hips",
+            "localPosition": {
+                "x": 5.764621945443796e-32,
+                "y": 0.05597740411758423,
+                "z": 0.012452113442122937
+            },
+            "modelPosition": {
+                "x": 5.764621945443796e-32,
+                "y": 0.9513533115386963,
+                "z": 0.01681985706090927
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "Chest",
+            "transform": "J_Bip_C_Chest",
+            "parent": "J_Bip_C_Spine",
+            "localPosition": {
+                "x": -1.952569927534895e-17,
+                "y": 0.10721099376678467,
+                "z": 0.003504347987473011
+            },
+            "modelPosition": {
+                "x": -1.952569927534895e-17,
+                "y": 1.058564305305481,
+                "z": 0.020324204117059709
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "Neck",
+            "transform": "J_Bip_C_Neck",
+            "parent": "J_Bip_C_UpperChest",
+            "localPosition": {
+                "x": 8.844927146488258e-17,
+                "y": 0.11981761455535889,
+                "z": -0.034740500152111056
+            },
+            "modelPosition": {
+                "x": 9.710694080255659e-17,
+                "y": 1.2798540592193604,
+                "z": -0.028169047087430955
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "Head",
+            "transform": "J_Bip_C_Head",
+            "parent": "J_Bip_C_Neck",
+            "localPosition": {
+                "x": 2.2938426269547564e-8,
+                "y": 0.07123041152954102,
+                "z": 0.008929712697863579
+            },
+            "modelPosition": {
+                "x": 2.2938426269547564e-8,
+                "y": 1.3510844707489014,
+                "z": -0.019239336252212526
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftShoulder",
+            "transform": "J_Bip_L_Shoulder",
+            "parent": "J_Bip_C_UpperChest",
+            "localPosition": {
+                "x": -0.020164091140031816,
+                "y": 0.09572327136993408,
+                "z": -0.027143774554133416
+            },
+            "modelPosition": {
+                "x": -0.020164091140031816,
+                "y": 1.2557597160339356,
+                "z": -0.020572323352098466
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightShoulder",
+            "transform": "J_Bip_R_Shoulder",
+            "parent": "J_Bip_C_UpperChest",
+            "localPosition": {
+                "x": 0.020164091140031816,
+                "y": 0.09572327136993408,
+                "z": -0.027143774554133416
+            },
+            "modelPosition": {
+                "x": 0.020164091140031816,
+                "y": 1.2557597160339356,
+                "z": -0.020572323352098466
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftUpperArm",
+            "transform": "J_Bip_L_UpperArm",
+            "parent": "J_Bip_L_Shoulder",
+            "localPosition": {
+                "x": -0.06026766821742058,
+                "y": -0.008626937866210938,
+                "z": 0.0
+            },
+            "modelPosition": {
+                "x": -0.08043175935745239,
+                "y": 1.2471327781677247,
+                "z": -0.020572323352098466
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightUpperArm",
+            "transform": "J_Bip_R_UpperArm",
+            "parent": "J_Bip_R_Shoulder",
+            "localPosition": {
+                "x": 0.06026766821742058,
+                "y": -0.008626937866210938,
+                "z": 0.0
+            },
+            "modelPosition": {
+                "x": 0.08043175935745239,
+                "y": 1.2471327781677247,
+                "z": -0.020572323352098466
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftLowerArm",
+            "transform": "J_Bip_L_LowerArm",
+            "parent": "J_Bip_L_UpperArm",
+            "localPosition": {
+                "x": -0.2536007761955261,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "modelPosition": {
+                "x": -0.3340325355529785,
+                "y": 1.2471327781677247,
+                "z": -0.020572323352098466
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightLowerArm",
+            "transform": "J_Bip_R_LowerArm",
+            "parent": "J_Bip_R_UpperArm",
+            "localPosition": {
+                "x": 0.2536007761955261,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "modelPosition": {
+                "x": 0.3340325355529785,
+                "y": 1.2471327781677247,
+                "z": -0.020572323352098466
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftHand",
+            "transform": "J_Bip_L_Hand",
+            "parent": "J_Bip_L_LowerArm",
+            "localPosition": {
+                "x": -0.2266363799571991,
+                "y": -3.5762786865234377e-7,
+                "z": 0.00039774924516677856
+            },
+            "modelPosition": {
+                "x": -0.5606688857078552,
+                "y": 1.247132420539856,
+                "z": -0.020174574106931688
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightHand",
+            "transform": "J_Bip_R_Hand",
+            "parent": "J_Bip_R_LowerArm",
+            "localPosition": {
+                "x": 0.2266363799571991,
+                "y": -3.5762786865234377e-7,
+                "z": 0.00039774924516677856
+            },
+            "modelPosition": {
+                "x": 0.5606688857078552,
+                "y": 1.247132420539856,
+                "z": -0.020174574106931688
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftToes",
+            "transform": "J_Bip_L_ToeBase",
+            "parent": "J_Bip_L_Foot",
+            "localPosition": {
+                "x": 0.0,
+                "y": -0.05391412973403931,
+                "z": 0.09464280307292938
+            },
+            "modelPosition": {
+                "x": -0.06935809552669525,
+                "y": 0.03220772743225098,
+                "z": 0.06329236924648285
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightToes",
+            "transform": "J_Bip_R_ToeBase",
+            "parent": "J_Bip_R_Foot",
+            "localPosition": {
+                "x": 0.0,
+                "y": -0.05391412973403931,
+                "z": 0.09464280307292938
+            },
+            "modelPosition": {
+                "x": 0.06935809552669525,
+                "y": 0.03220772743225098,
+                "z": 0.06329236924648285
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftEye",
+            "transform": "J_Adj_L_FaceEye",
+            "parent": "J_Bip_C_Head",
+            "localPosition": {
+                "x": -0.014649988152086735,
+                "y": 0.06300592422485352,
+                "z": 0.02387046255171299
+            },
+            "modelPosition": {
+                "x": -0.01464996486902237,
+                "y": 1.4140903949737549,
+                "z": 0.00463112723082304
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightEye",
+            "transform": "J_Adj_R_FaceEye",
+            "parent": "J_Bip_C_Head",
+            "localPosition": {
+                "x": 0.014649973250925541,
+                "y": 0.06300568580627442,
+                "z": 0.023870492354035379
+            },
+            "modelPosition": {
+                "x": 0.014649996533989907,
+                "y": 1.4140901565551758,
+                "z": 0.004631157033145428
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftThumbProximal",
+            "transform": "J_Bip_L_Thumb1",
+            "parent": "J_Bip_L_Hand",
+            "localPosition": {
+                "x": -0.0029261112213134767,
+                "y": -0.008359789848327637,
+                "z": 0.01333395391702652
+            },
+            "modelPosition": {
+                "x": -0.5635949969291687,
+                "y": 1.2387726306915284,
+                "z": -0.006840620189905167
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftThumbIntermediate",
+            "transform": "J_Bip_L_Thumb2",
+            "parent": "J_Bip_L_Thumb1",
+            "localPosition": {
+                "x": -0.029372364282608033,
+                "y": -0.0017228126525878907,
+                "z": 0.02527787536382675
+            },
+            "modelPosition": {
+                "x": -0.5929673910140991,
+                "y": 1.2370498180389405,
+                "z": 0.018437255173921586
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftThumbDistal",
+            "transform": "J_Bip_L_Thumb3",
+            "parent": "J_Bip_L_Thumb2",
+            "localPosition": {
+                "x": -0.01873546838760376,
+                "y": -0.0008103847503662109,
+                "z": 0.014742672443389893
+            },
+            "modelPosition": {
+                "x": -0.6117028594017029,
+                "y": 1.2362394332885743,
+                "z": 0.03317992761731148
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftIndexProximal",
+            "transform": "J_Bip_L_Index1",
+            "parent": "J_Bip_L_Hand",
+            "localPosition": {
+                "x": -0.0543728768825531,
+                "y": 0.006164669990539551,
+                "z": 0.01641901582479477
+            },
+            "modelPosition": {
+                "x": -0.6150417923927307,
+                "y": 1.2532970905303956,
+                "z": -0.003755558282136917
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftIndexIntermediate",
+            "transform": "J_Bip_L_Index2",
+            "parent": "J_Bip_L_Index1",
+            "localPosition": {
+                "x": -0.027618825435638429,
+                "y": 0.0,
+                "z": -0.000539783388376236
+            },
+            "modelPosition": {
+                "x": -0.6426606178283691,
+                "y": 1.2532970905303956,
+                "z": -0.004295341670513153
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftIndexDistal",
+            "transform": "J_Bip_L_Index3",
+            "parent": "J_Bip_L_Index2",
+            "localPosition": {
+                "x": -0.016988158226013185,
+                "y": -0.0004940032958984375,
+                "z": -0.000659015029668808
+            },
+            "modelPosition": {
+                "x": -0.6596487760543823,
+                "y": 1.252803087234497,
+                "z": -0.004954356700181961
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftMiddleProximal",
+            "transform": "J_Bip_L_Middle1",
+            "parent": "J_Bip_L_Hand",
+            "localPosition": {
+                "x": -0.05511358380317688,
+                "y": 0.006164669990539551,
+                "z": 0.0017098113894462586
+            },
+            "modelPosition": {
+                "x": -0.6157824993133545,
+                "y": 1.2532970905303956,
+                "z": -0.018464762717485429
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftMiddleIntermediate",
+            "transform": "J_Bip_L_Middle2",
+            "parent": "J_Bip_L_Middle1",
+            "localPosition": {
+                "x": -0.030769944190979005,
+                "y": 0.0,
+                "z": -1.4901161193847657e-8
+            },
+            "modelPosition": {
+                "x": -0.6465524435043335,
+                "y": 1.2532970905303956,
+                "z": -0.01846477761864662
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftMiddleDistal",
+            "transform": "J_Bip_L_Middle3",
+            "parent": "J_Bip_L_Middle2",
+            "localPosition": {
+                "x": -0.018982648849487306,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "modelPosition": {
+                "x": -0.6655350923538208,
+                "y": 1.2532970905303956,
+                "z": -0.01846477761864662
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftRingProximal",
+            "transform": "J_Bip_L_Ring1",
+            "parent": "J_Bip_L_Hand",
+            "localPosition": {
+                "x": -0.05448576807975769,
+                "y": 0.006164669990539551,
+                "z": -0.01134994812309742
+            },
+            "modelPosition": {
+                "x": -0.6151546835899353,
+                "y": 1.2532970905303956,
+                "z": -0.03152452036738396
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftRingIntermediate",
+            "transform": "J_Bip_L_Ring2",
+            "parent": "J_Bip_L_Ring1",
+            "localPosition": {
+                "x": -0.028543055057525636,
+                "y": 0.0,
+                "z": -1.4901161193847657e-8
+            },
+            "modelPosition": {
+                "x": -0.6436977386474609,
+                "y": 1.2532970905303956,
+                "z": -0.03152453526854515
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftRingDistal",
+            "transform": "J_Bip_L_Ring3",
+            "parent": "J_Bip_L_Ring2",
+            "localPosition": {
+                "x": -0.016472220420837404,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "modelPosition": {
+                "x": -0.6601699590682983,
+                "y": 1.2532970905303956,
+                "z": -0.03152453526854515
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftLittleProximal",
+            "transform": "J_Bip_L_Little1",
+            "parent": "J_Bip_L_Hand",
+            "localPosition": {
+                "x": -0.05073419213294983,
+                "y": 0.006164669990539551,
+                "z": -0.024370046332478524
+            },
+            "modelPosition": {
+                "x": -0.6114031076431274,
+                "y": 1.2532970905303956,
+                "z": -0.04454461857676506
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftLittleIntermediate",
+            "transform": "J_Bip_L_Little2",
+            "parent": "J_Bip_L_Little1",
+            "localPosition": {
+                "x": -0.026108264923095704,
+                "y": 0.0,
+                "z": 7.450580596923828e-9
+            },
+            "modelPosition": {
+                "x": -0.6375113725662231,
+                "y": 1.2532970905303956,
+                "z": -0.044544611126184466
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "LeftLittleDistal",
+            "transform": "J_Bip_L_Little3",
+            "parent": "J_Bip_L_Little2",
+            "localPosition": {
+                "x": -0.015047192573547364,
+                "y": 0.0,
+                "z": 7.450580596923828e-9
+            },
+            "modelPosition": {
+                "x": -0.6525585651397705,
+                "y": 1.2532970905303956,
+                "z": -0.04454460367560387
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightThumbProximal",
+            "transform": "J_Bip_R_Thumb1",
+            "parent": "J_Bip_R_Hand",
+            "localPosition": {
+                "x": 0.0029261112213134767,
+                "y": -0.008359789848327637,
+                "z": 0.01333395391702652
+            },
+            "modelPosition": {
+                "x": 0.5635949969291687,
+                "y": 1.2387726306915284,
+                "z": -0.006840620189905167
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightThumbIntermediate",
+            "transform": "J_Bip_R_Thumb2",
+            "parent": "J_Bip_R_Thumb1",
+            "localPosition": {
+                "x": 0.029372364282608033,
+                "y": -0.0017228126525878907,
+                "z": 0.02527787536382675
+            },
+            "modelPosition": {
+                "x": 0.5929673910140991,
+                "y": 1.2370498180389405,
+                "z": 0.018437255173921586
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightThumbDistal",
+            "transform": "J_Bip_R_Thumb3",
+            "parent": "J_Bip_R_Thumb2",
+            "localPosition": {
+                "x": 0.01873546838760376,
+                "y": -0.0008103847503662109,
+                "z": 0.014742672443389893
+            },
+            "modelPosition": {
+                "x": 0.6117028594017029,
+                "y": 1.2362394332885743,
+                "z": 0.03317992761731148
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightIndexProximal",
+            "transform": "J_Bip_R_Index1",
+            "parent": "J_Bip_R_Hand",
+            "localPosition": {
+                "x": 0.0543728768825531,
+                "y": 0.006164669990539551,
+                "z": 0.01641901582479477
+            },
+            "modelPosition": {
+                "x": 0.6150417923927307,
+                "y": 1.2532970905303956,
+                "z": -0.003755558282136917
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightIndexIntermediate",
+            "transform": "J_Bip_R_Index2",
+            "parent": "J_Bip_R_Index1",
+            "localPosition": {
+                "x": 0.027618825435638429,
+                "y": 0.0,
+                "z": -0.000539783388376236
+            },
+            "modelPosition": {
+                "x": 0.6426606178283691,
+                "y": 1.2532970905303956,
+                "z": -0.004295341670513153
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightIndexDistal",
+            "transform": "J_Bip_R_Index3",
+            "parent": "J_Bip_R_Index2",
+            "localPosition": {
+                "x": 0.016988158226013185,
+                "y": -0.0004940032958984375,
+                "z": -0.000659015029668808
+            },
+            "modelPosition": {
+                "x": 0.6596487760543823,
+                "y": 1.252803087234497,
+                "z": -0.004954356700181961
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightMiddleProximal",
+            "transform": "J_Bip_R_Middle1",
+            "parent": "J_Bip_R_Hand",
+            "localPosition": {
+                "x": 0.05511358380317688,
+                "y": 0.006164669990539551,
+                "z": 0.0017098113894462586
+            },
+            "modelPosition": {
+                "x": 0.6157824993133545,
+                "y": 1.2532970905303956,
+                "z": -0.018464762717485429
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightMiddleIntermediate",
+            "transform": "J_Bip_R_Middle2",
+            "parent": "J_Bip_R_Middle1",
+            "localPosition": {
+                "x": 0.030769944190979005,
+                "y": 0.0,
+                "z": -1.4901161193847657e-8
+            },
+            "modelPosition": {
+                "x": 0.6465524435043335,
+                "y": 1.2532970905303956,
+                "z": -0.01846477761864662
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightMiddleDistal",
+            "transform": "J_Bip_R_Middle3",
+            "parent": "J_Bip_R_Middle2",
+            "localPosition": {
+                "x": 0.018982648849487306,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "modelPosition": {
+                "x": 0.6655350923538208,
+                "y": 1.2532970905303956,
+                "z": -0.01846477761864662
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightRingProximal",
+            "transform": "J_Bip_R_Ring1",
+            "parent": "J_Bip_R_Hand",
+            "localPosition": {
+                "x": 0.05448576807975769,
+                "y": 0.006164669990539551,
+                "z": -0.01134994812309742
+            },
+            "modelPosition": {
+                "x": 0.6151546835899353,
+                "y": 1.2532970905303956,
+                "z": -0.03152452036738396
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightRingIntermediate",
+            "transform": "J_Bip_R_Ring2",
+            "parent": "J_Bip_R_Ring1",
+            "localPosition": {
+                "x": 0.028543055057525636,
+                "y": 0.0,
+                "z": -1.4901161193847657e-8
+            },
+            "modelPosition": {
+                "x": 0.6436977386474609,
+                "y": 1.2532970905303956,
+                "z": -0.03152453526854515
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightRingDistal",
+            "transform": "J_Bip_R_Ring3",
+            "parent": "J_Bip_R_Ring2",
+            "localPosition": {
+                "x": 0.016472220420837404,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "modelPosition": {
+                "x": 0.6601699590682983,
+                "y": 1.2532970905303956,
+                "z": -0.03152453526854515
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightLittleProximal",
+            "transform": "J_Bip_R_Little1",
+            "parent": "J_Bip_R_Hand",
+            "localPosition": {
+                "x": 0.05073419213294983,
+                "y": 0.006164669990539551,
+                "z": -0.024370046332478524
+            },
+            "modelPosition": {
+                "x": 0.6114031076431274,
+                "y": 1.2532970905303956,
+                "z": -0.04454461857676506
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightLittleIntermediate",
+            "transform": "J_Bip_R_Little2",
+            "parent": "J_Bip_R_Little1",
+            "localPosition": {
+                "x": 0.026108264923095704,
+                "y": 0.0,
+                "z": 7.450580596923828e-9
+            },
+            "modelPosition": {
+                "x": 0.6375113725662231,
+                "y": 1.2532970905303956,
+                "z": -0.044544611126184466
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "RightLittleDistal",
+            "transform": "J_Bip_R_Little3",
+            "parent": "J_Bip_R_Little2",
+            "localPosition": {
+                "x": 0.015047192573547364,
+                "y": 0.0,
+                "z": 7.450580596923828e-9
+            },
+            "modelPosition": {
+                "x": 0.6525585651397705,
+                "y": 1.2532970905303956,
+                "z": -0.04454460367560387
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        },
+        {
+            "humanoid": "UpperChest",
+            "transform": "J_Bip_C_UpperChest",
+            "parent": "J_Bip_C_Chest",
+            "localPosition": {
+                "x": 2.818336364993929e-17,
+                "y": 0.10147213935852051,
+                "z": -0.013752752915024758
+            },
+            "modelPosition": {
+                "x": 8.657664374590338e-18,
+                "y": 1.1600364446640015,
+                "z": 0.006571452133357525
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            }
+        }
+    ],
+    "morphs": [
+        {
+            "clip": "Neutral",
+            "path": "Face",
+            "target": "Fcl_ALL_Neutral",
+            "index": 0,
+            "weight": 100.0
+        },
+        {
+            "clip": "A",
+            "path": "Face",
+            "target": "Fcl_MTH_A",
+            "index": 39,
+            "weight": 100.0
+        },
+        {
+            "clip": "I",
+            "path": "Face",
+            "target": "Fcl_MTH_I",
+            "index": 40,
+            "weight": 100.0
+        },
+        {
+            "clip": "U",
+            "path": "Face",
+            "target": "Fcl_MTH_U",
+            "index": 41,
+            "weight": 100.0
+        },
+        {
+            "clip": "E",
+            "path": "Face",
+            "target": "Fcl_MTH_E",
+            "index": 42,
+            "weight": 100.0
+        },
+        {
+            "clip": "O",
+            "path": "Face",
+            "target": "Fcl_MTH_O",
+            "index": 43,
+            "weight": 100.0
+        },
+        {
+            "clip": "Blink",
+            "path": "Face",
+            "target": "Fcl_EYE_Close",
+            "index": 13,
+            "weight": 100.0
+        },
+        {
+            "clip": "Blink_L",
+            "path": "Face",
+            "target": "Fcl_EYE_Close_L",
+            "index": 15,
+            "weight": 100.0
+        },
+        {
+            "clip": "Blink_R",
+            "path": "Face",
+            "target": "Fcl_EYE_Close_R",
+            "index": 14,
+            "weight": 100.0
+        },
+        {
+            "clip": "Angry",
+            "path": "Face",
+            "target": "Fcl_ALL_Angry",
+            "index": 1,
+            "weight": 100.0
+        },
+        {
+            "clip": "Fun",
+            "path": "Face",
+            "target": "Fcl_ALL_Fun",
+            "index": 2,
+            "weight": 100.0
+        },
+        {
+            "clip": "Joy",
+            "path": "Face",
+            "target": "Fcl_ALL_Joy",
+            "index": 3,
+            "weight": 100.0
+        },
+        {
+            "clip": "Sorrow",
+            "path": "Face",
+            "target": "Fcl_ALL_Sorrow",
+            "index": 4,
+            "weight": 100.0
+        },
+        {
+            "clip": "Surprised",
+            "path": "Face",
+            "target": "Fcl_ALL_Surprised",
+            "index": 5,
+            "weight": 100.0
+        },
+        {
+            "clip": "BrowUp",
+            "path": "Face",
+            "target": "Fcl_BRW_Surprised",
+            "index": 10,
+            "weight": 100.0
+        },
+        {
+            "clip": "BrowDown",
+            "path": "Face",
+            "target": "Fcl_BRW_Sorrow",
+            "index": 9,
+            "weight": 100.0
+        }
+    ],
+    "posesChecked": 21,
+    "maxProjectionErrorDegrees": 0.01978234015405178
+}

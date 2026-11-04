@@ -1,0 +1,51 @@
+# Local configuration and credentials
+*.local.json
+board/configs/voice.json
+.env
+.env.*
+
+# Python and test output
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+*.jsonl
+pc/logs/
+board/logs/
+board/pc_voice/gesture_audio/
+
+# Unity generated files
+**/Library/
+**/Temp/
+**/Obj/
+**/Build/
+**/Builds/
+**/UserSettings/
+**/Artifacts/
+
+# Hardware build output and downloadable model files
+board/build*/
+board/prebuilt/
+board/drivers/
+board/sdicamera*
+board/imodel/**/*.raw
+board/imodel/**/*.bin
+pc/models/
+pc/model.vrm
+*.pt
+*.pth
+*.onnx
+*.task
+*.ko
+
+# FPGA/Vivado generated output
+fpga/**/.Xil/
+fpga/**/*.runs/
+fpga/**/*.cache/
+fpga/**/*.ip_user_files/
+*.bit
+*.dcp
+*.wdb
+*.jou

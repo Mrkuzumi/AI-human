@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "api_key": "",
+  "model": "hy-role",
+  "system_prompt": "你是屏幕中的AI数字人小语，用亲切自然的中文口语聊天。直接回答用户，第一句尽量不超过16个汉字；默认最多两句、总计50个汉字，除非用户明确要求详细解释。不要用好的、让我想想等占位话开头。不输出Markdown、表情符号或舞台动作描述。不假装看到了画面或控制了身体，不编造实时信息。你是AI，不是真人。",
+  "history_turns": 4,
+  "voice_type": 601009,
+  "speed": 0,
+  "echo_tail_seconds": 1.2,
+  "unity_port": 39545
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-22",
+  "version": "release_1_0_1",
+  "python_unit_tests": 139,
+  "unity_synthetic_poses": 21,
+  "max_unity_projection_error_degrees": 0.01978234015405178,
+  "unity_mode_switch": "passed",
+  "unity_speech_regression": "passed on isolated port 49545",
+  "hardware_tested": false,
+  "source_files_sha256": {
+    "pc/reference/motion_bridge.py": "b3c4999e2e716021980e0eb31dd5e0c4ff66ba9a851098e1ddf755e454155e0e",
+    "pc/tests/test_motion_bridge.py": "3d029ff828ec98acec8425debeadf97bc360722ff45293cfd34ca5cd2cb6249e",
+    "pc/tests/test_finger_bridge.py": "2525bcb3595a92d40bf4eabea44a981f5d4552bf926bb50abcd123414032f877",
+    "pc/tests/build_avatar_mapping_cases.py": "07807ad6adfc9d6be5cba5ec49fc542f47457337cfd789249cc53fbf9cb9027a",
+    "pc/unity/DigitalManAvatar/Assets/EVMC4U/ExternalReceiver.cs": "95ca6caff7ddae326f200b4c4ebadbc64450f1e3abf5f1deabba4af91cd2f4df",
+    "pc/unity/DigitalManAvatar/Assets/Scripts/Editor/AvatarMappingChecks.cs": "efe27aa02b259a2856674ffb7d3e8fc71faf8df5ca238daecac3820d78d1fdb5",
+    "pc/unity/DigitalManAvatar/Assets/Editor/AvatarMappingCases.json": "b7da731f7cca2a3dd30d35cddd840be15b782b3fb61dd1b60c0519e7656f6e77",
+    "pc/unity/DigitalManAvatar/Assets/Scripts/Editor/ArmBodyAvoidanceChecks.cs": "4817fd4b215ceccc8e77be4138ece18c07054029bc183d0a4a9d03d47e2c3210",
+    "pc/unity/DigitalManAvatar/Assets/Models/model.BlendShapes/BlendShape.asset": "69b794cbe7e3a8a1cd3bd3a52b6bb3a26a624c3e0350bc03cd68a5c2c96e65fb",
+    "pc/unity/DigitalManAvatar/Assets/Models/model.BlendShapes/BlendShape.BrowUp.asset": "cfdb98b60e9ad1354fca297f7b6a17e2e8f35391905edadf843b9f259c5e149d",
+    "pc/unity/DigitalManAvatar/Assets/Models/model.BlendShapes/BlendShape.BrowDown.asset": "1afb4d7ba59fd8fcb76c06d2f7bebc29ff05dee1b8411b46333f9753085f0460"
+  }
+}

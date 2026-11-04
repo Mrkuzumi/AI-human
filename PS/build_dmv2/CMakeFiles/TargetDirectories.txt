@@ -1,0 +1,3 @@
+/mnt/docker_data/20261007Shuziren/three_newfinger_20261011/build_dmv2/CMakeFiles/sdicamera+v8pose+yolov8-face+yolov8-finger+hdmi.dir
+/mnt/docker_data/20261007Shuziren/three_newfinger_20261011/build_dmv2/CMakeFiles/edit_cache.dir
+/mnt/docker_data/20261007Shuziren/three_newfinger_20261011/build_dmv2/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/workspace/three_newfinger_20261012_full/build_pose_face_smoothing/CMakeFiles/sdicamera+v8pose+yolov8-face+yolov8-finger+hdmi.dir
+/workspace/three_newfinger_20261012_full/build_pose_face_smoothing/CMakeFiles/edit_cache.dir
+/workspace/three_newfinger_20261012_full/build_pose_face_smoothing/CMakeFiles/rebuild_cache.dir

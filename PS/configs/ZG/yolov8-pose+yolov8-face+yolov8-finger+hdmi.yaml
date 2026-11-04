@@ -1,0 +1,107 @@
+sys:
+  Version: __3.36__
+  device: axi://zg330aiu?npu=0x40000000&dma=0x80000000
+  mmuMode: true
+  speedMode: false
+  compressFtmp: false
+  ocm_option: -1
+  profile: false
+  run_backend: zg330
+  dump_output: false
+  dump_format: SFB
+  log_path: ../io/output/ftmp
+  SKIP_CAMERA_ERROR: false
+  DEBUG: false
+  DEBUG_FLAGS: 0
+
+pipeline:
+  camera:
+    vtc: false
+    width: 1920
+    height: 1080
+    fps: 60
+  display:
+    type: hdmi
+    width: 1920
+    height: 1080
+    fps: 60
+  pose:
+    model: yolov8-pose
+    json: ./imodel/ZG/yolov8-pose_ZG.json
+    raw: ./imodel/ZG/yolov8-pose_ZG.raw
+    net_w: 640
+    net_h: 352
+    names: names/yolov8-pose.names
+    conf: 0.35
+    iou_thresh: 0.45
+    multilabel: true
+    number_of_class: 1
+    number_of_keypoint: 17
+    fpga_nms: false
+  face:
+    model: yolov8-face
+    json: ./imodel/ZG/yolov8-face_ZG.json
+    raw: ./imodel/ZG/yolov8-face_ZG.raw
+    net_w: 640
+    net_h: 352
+    names: names/yolov8-face.names
+    conf: 0.35
+    iou_thresh: 0.45
+    multilabel: false
+    number_of_class: 1
+    number_of_keypoint: 51
+    fpga_nms: false
+  finger:
+    model: yolov8-finger
+    json: ./imodel/ZG/yolov8-finger_ZG.json
+    raw: ./imodel/ZG/yolov8-finger_ZG.raw
+    net_w: 640
+    net_h: 352
+    names: names/yolov8-finger.names
+    conf: 0.35
+    iou_thresh: 0.45
+    multilabel: false
+    number_of_class: 1
+    number_of_keypoint: 21
+    fpga_nms: false
+  hwpre:
+    debug: false
+    debug_frames: 5
+    debug_interval: 100
+    fatal_on_timeout: true
+    timeout_ms: 1000
+    arb_m0_slots: 3
+  motion_udp:
+    enabled: true
+    host: 192.168.126.100
+    port: 39540
+  finger_udp:
+    enabled: true
+    host: 192.168.126.100
+    port: 39542
+  frame_udp:
+    enabled: true
+    host: 192.168.126.100
+    port: 39541
+    width: 640
+    height: 360
+    quality: 55
+    stride: 3
+  gesture_udp:
+    enabled: true
+    host: 192.168.126.100
+    port: 39543
+    dwell_seconds: 0.5
+    region_above: 9.0
+    region_below: 0.40
+    region_half_width: 9.0
+    min_confidence: 0.3
+    touch_face_pose:
+      enabled: true
+      dwell_seconds: 0.4
+      grace_seconds: 0.35
+      region_above: 0.55
+      region_below: 0.35
+      region_half_width: 0.60
+      min_hands: 2
+      require_both_sides: true

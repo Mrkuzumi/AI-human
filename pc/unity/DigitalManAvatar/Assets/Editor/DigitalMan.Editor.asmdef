@@ -1,0 +1,11 @@
+{
+  "name": "DigitalMan.Editor",
+  "references": [
+    "UniGLTF",
+    "UniVRM.Editor",
+    "VRM"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

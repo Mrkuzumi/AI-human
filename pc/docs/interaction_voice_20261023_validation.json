@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-23",
+  "runtime": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1",
+  "runner": "C:\\Users\\11201\\Desktop\\AI-Humen-Runner-v1.4.1-win-x64",
+  "features": [
+    "interaction full-body standing with three upper-body responses",
+    "final ASR voice mode commands with caption/dialogue/playback gates",
+    "serial new-action sequencing, heartbeat ACK and restart synchronization"
+  ],
+  "checks": {
+    "avatar_python": {
+      "passed": 155
+    },
+    "voice_python": {
+      "passed": 41
+    },
+    "runner_compatibility": {
+      "passed": 5
+    },
+    "linux_serial_pty": {
+      "passed": 9,
+      "environment": "WSL Ubuntu root"
+    },
+    "unity": {
+      "animation_samples": 28,
+      "max_upper_body_response_metres": 0.4796694,
+      "ownership_and_caption_checks": "passed",
+      "log": "D:\\FudanMicro\\AAAAAnew\\work\\interaction_voice_20261023\\unity_checks.log"
+    },
+    "voice_transport": {
+      "passed": 8,
+      "preexisting_failure": "full/board run_board.sh byte equality"
+    }
+  },
+  "existing_script_hashes": {
+    "full_run_board": "255dcc20af911197910b0f32dc72c7aaed4ace103fc963911d5e40fa9a274359",
+    "board_run_board": "4a1468e0ee26ebb8fe1c5b880e043cde426b364d3468a8e850e87bf4ab8d2ca7"
+  },
+  "limitations": [
+    "No physical board, microphone or live cloud end-to-end validation.",
+    "Cloud ASR was mocked in transport tests; TCP/UDP bridge processes and PCM path were real.",
+    "No acoustic echo cancellation; recognition quality and speaker feedback need on-site validation.",
+    "Already accepted cloud requests may continue remotely after local cancellation.",
+    "First serial suite run as ordinary WSL user hit sudo wait; the same suite passed as root."
+  ],
+  "unchanged": [
+    "NPU models/binaries",
+    "keypoint mapping/wrist/depth/body-turn algorithms",
+    "camera, scene and animation clip assets",
+    "Runner UI/EXE",
+    "private cloud configurations"
+  ],
+  "backup": "D:\\FudanMicro\\AAAAAnew\\work\\interaction_voice_20261023\\before",
+  "files": [
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\yolov8-pose+yolov8-face+yolov8-finger_board\\SHA256SUMS",
+      "before": "af8f1585486599e484abd93d9b94aa4ccf1f239f55335c85384e43285a293b98",
+      "after": "0f1828bdd99e6bd33e7bcbc4529b27d1b133ef9ffe10e20ffca87329b8e2993d"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\yolov8-pose+yolov8-face+yolov8-finger_full\\SHA256SUMS",
+      "before": "4b585b070cce25b1d9c27ceb0bbe3a08ebfbecc90429979d0f0b2beaf52b5827",
+      "after": "dd0f0062e8779caaad57bbd4b473519e4b10f5f05c00beaf38f2e57a5cd0eadb"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\yolov8-pose+yolov8-face+yolov8-finger_full\\pc_voice\\dialogue.py",
+      "before": "00ccea3cac1c28518b1539bcb51ba1a0500697c2ea6a73603afada4749f1b150",
+      "after": "13aefecec477096739423b42ff724b01de6d83f2943ea58b3d7a38aa81eb2483"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\yolov8-pose+yolov8-face+yolov8-finger_full\\pc_voice\\stream_receiver.py",
+      "before": "859b6082f961c10c7322db02892f9e1274673fadc0dbf1e1a63f8f86b1b2b4c4",
+      "after": "4afabcf67e7ab44b1cd149e6c1501e216921d8762da3d75fc52193c452fc4bc5"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\yolov8-pose+yolov8-face+yolov8-finger_full\\tests\\test_uart_mode_bridge.py",
+      "before": "7f3a1a801f4e3b1a9027cf5fd2780b78a02c6dabb90c71ae715689041012c4f7",
+      "after": "0172a6724d4396ba65c5bebc4180b8a03f8c57201874d6bdf2c907a77d1544cd"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\yolov8-pose+yolov8-face+yolov8-finger_full\\tools\\uart_mode_bridge.py",
+      "before": "30cd164e4012825f188f0dd1553f8bdb011471665ba4d1b6d7c5bb9ef0333332",
+      "after": "fa6f945fb6641a16d63847b0a16bddaa94f288f1d7fa20f61dfba53dfd2fb8ec"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\yolov8-pose+yolov8-face+yolov8-finger_board\\tests\\test_uart_mode_bridge.py",
+      "before": "7f3a1a801f4e3b1a9027cf5fd2780b78a02c6dabb90c71ae715689041012c4f7",
+      "after": "0172a6724d4396ba65c5bebc4180b8a03f8c57201874d6bdf2c907a77d1544cd"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\yolov8-pose+yolov8-face+yolov8-finger_board\\tools\\uart_mode_bridge.py",
+      "before": "30cd164e4012825f188f0dd1553f8bdb011471665ba4d1b6d7c5bb9ef0333332",
+      "after": "fa6f945fb6641a16d63847b0a16bddaa94f288f1d7fa20f61dfba53dfd2fb8ec"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\AI_humen\\AI_humen\\pc\\reference\\mode_control.py",
+      "before": "3430c1c675701440043a84511cf4cda2359f05d773ea99fddd746664191eea4b",
+      "after": "9f3f62a9479ae9ebc107c88f8c9f57e22165328b7dc6c4e7c2d2511e06e61cf7"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\AI_humen\\AI_humen\\pc\\reference\\motion_bridge.py",
+      "before": "4ce3737eb9bb5ba39107eaab0beb201c8fbef1a083a20b7d0c3124a99d354928",
+      "after": "3a08c515b9371fe7f96e2b5b7abc44628ecc9e02968fbfa5e937c42729a0d5a4"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\AI_humen\\AI_humen\\pc\\tests\\test_mode_control.py",
+      "before": "27fc4882f78c83b2fd34bf1978453541f3cde115f52e7a31f27a57ad7731d224",
+      "after": "0887ba3cd3cfca5d5a5a2c809590765e1c29a6fbaa5c7940a55a9e715c24b909"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\AI_humen\\AI_humen\\pc\\unity\\DigitalManAvatar\\Assets\\Scripts\\DialogueSpeechReceiver.cs",
+      "before": "06775cd57fe2d4b5df8e8defb49f4cdbf52b784c873b8b08d5ca2c54be293434",
+      "after": "f3ff706a29a8400cf721686fb5ce5e3029cd11342c0312d07539d8e256cd274b"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\AI_humen\\AI_humen\\pc\\unity\\DigitalManAvatar\\Assets\\Scripts\\GestureTriggerReceiver.cs",
+      "before": "c2dca4b8484a6600c5741cc0a2e9add254d30dce25451a80ae4e5238f2440cf2",
+      "after": "2c5de21c30f1ac0aa8afaf495dec2e57ef73aa3c7e83d1c272ea726ab8dccccc"
+    },
+    {
+      "path": "C:\\Users\\11201\\Desktop\\AI-Humen-Runner-v1.4.1-win-x64\\FILE_SHA256SUMS.txt",
+      "before": "ac62db39fea9acb4dfea032c71c5de870e305b36cc651e9b5871f17d0562d16f",
+      "after": "6ed8c633e30f53d39f2c5dc24f5cb56e226fee16a80ecd3db6235513bbba2662"
+    },
+    {
+      "path": "C:\\Users\\11201\\Desktop\\AI-Humen-Runner-v1.4.1-win-x64\\launcher.json",
+      "before": "aac6e250861e50346793683abc140f1977a2b9e516aba678b93627f17b4a68f6",
+      "after": "a17b3ad344d5ffd8b18d9ba231d134e233bc54eaeafd04aa162885017b5d1a21"
+    },
+    {
+      "path": "C:\\Users\\11201\\Desktop\\AI-Humen-Runner-v1.4.1-win-x64\\README.md",
+      "before": "8df74bf7aa0fb6589c7ffcae158d977151152175f9b9d1383a14aed99c76469d",
+      "after": "ed2b567555542f4533285fcb92a152cc6fb684f4e0a76530b61c6f292be6442c"
+    },
+    {
+      "path": "C:\\Users\\11201\\Desktop\\AI-Humen-Runner-v1.4.1-win-x64\\tests\\test_release_1_0_1.py",
+      "before": "0e609bcafcf0f86fe67a9c871dbfd5bdcb920ef33e0a0a4b039b85c5e5ac44d1",
+      "after": "5908fa1566c23c90741c5a7f275f96746a67b8b6bec2bce655657ed3629cf4d9"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\yolov8-pose+yolov8-face+yolov8-finger_full\\pc_voice\\voice_mode.py",
+      "before": null,
+      "after": "bd3264b236aa3936ba8d922df9a81fb4cd7f69dacd0680112d516361e8e6958d"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\yolov8-pose+yolov8-face+yolov8-finger_full\\pc_voice\\test_voice_mode.py",
+      "before": null,
+      "after": "a0453b2c58cacf4dfe7191c6c5c06eaf56a6a2bf7852d42f79b7e99efeeae20b"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\AI_humen\\AI_humen\\pc\\unity\\DigitalManAvatar\\Assets\\Scripts\\Editor\\InteractionVoiceChecks.cs",
+      "before": null,
+      "after": "234e015d2f64ad73e283a973559fafa2ebf6772ec15ba4284fe1ccf24b9c8b0e"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\AI_humen\\AI_humen\\pc\\unity\\DigitalManAvatar\\Assets\\Scripts\\Editor\\InteractionVoiceChecks.cs.meta",
+      "before": null,
+      "after": "026ae7201f0f48bb401280740364a189c629075d40348389d2f72cfe6da30cfc"
+    },
+    {
+      "path": "D:\\FudanMicro\\AAAAAnew\\runtimeapp\\release_1_0_1\\AI_humen\\AI_humen\\pc\\docs\\interaction_voice_20261023.md",
+      "before": null,
+      "after": "a99fbcf74073f89e81e11a163572e8c047e70ac2681b4a4a9b5af846d0ca9ff1"
+    }
+  ]
+}

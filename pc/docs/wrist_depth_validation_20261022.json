@@ -1,0 +1,39 @@
+{
+  "build": "wrist-depth-20261022",
+  "python_unittests_passed": 147,
+  "rig_wrist_combinations": 300,
+  "unity": {
+    "posesChecked": 36,
+    "handEdgesChecked": 30,
+    "maxProjectionErrorDegrees": 0.01978234015405178,
+    "maxHandEdgeErrorDegrees": 0.0
+  },
+  "udp_integration": {
+    "frames": 120,
+    "frames_with_rgb_wrist": 118,
+    "vmc_packets": 6730,
+    "initial_inference_ms": 38.65830006543547,
+    "interpretation": "Offline JPEG + synthetic matching NPU packets; verifies integration, not live motion accuracy."
+  },
+  "live_rgb_observation": {
+    "packets": 0,
+    "frames": []
+  },
+  "powershell5_auto_rgb_python_and_flags": "passed with a stub bridge; local models also passed actual inference",
+  "files": {
+    "pc/reference/motion_bridge.py": "db19092dde1a1975562ddbddd98e26d3b8f47b1de66ecf5d6fca208b9d103fb4",
+    "pc/reference/rgb_pose_receiver.py": "d999e70ff7a2aed9ec0209e279beae9488da6ed531c291f42901fe72196cedfc",
+    "pc/start_3d_bridge.ps1": "651e3e2b914f8dbbad6fd98299b31e39f8ae2f5ae5cc56d49fd18e8f97f305cb",
+    "pc/tests/test_wrist_depth_mapping.py": "4534517058d80f6bb7737db059e0eb1bd9792f32400699265954a3a16bcf2910",
+    "pc/tests/build_wrist_depth_cases.py": "52d70cf124b87ea6cee9e5d36459d0e5e0927a24084adffe95dd0d4cd6acdafe",
+    "pc/unity/DigitalManAvatar/Assets/Scripts/Editor/AvatarMappingChecks.cs": "49ed4f8a603e7e012d79d678f1de796ccb3a58d69e85ec685ff699a5a0d8581d",
+    "pc/unity/DigitalManAvatar/Assets/Editor/AvatarMappingCases.json": "8868462fa384d0f088e85072b36df20869dacaf4768e8aca1e26b6e8c5b44733",
+    "pc/docs/wrist_depth_20261022.md": "359ee7dd6168b42f8421d4302ffe26fefeb2a5667b98ab32dde27ad51312038f"
+  },
+  "limits": [
+    "No live labeled motion validation",
+    "Depth is monocular RGB inference, not sensor depth",
+    "New RGB enhancements are opt-in",
+    "No training-server access"
+  ]
+}

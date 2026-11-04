@@ -1,0 +1,16 @@
+{
+  "source": "face_diagnostics_v21_raw.csv",
+  "frame_width_assumed": 1920,
+  "frame_height_assumed": 1080,
+  "note": "Unlabelled historical data: counts show valid measurements, not expression accuracy. Other face logs lack raw points and were not replayed.",
+  "counts": {
+    "rows_with_raw_points": 9403,
+    "new_all_regions_valid": 6234,
+    "new_measurement_valid": 9355,
+    "new_left_eye_valid": 6264,
+    "new_right_eye_valid": 9292,
+    "new_mouth_valid": 9282,
+    "legacy_all_regions_valid": 2951
+  },
+  "eye_corner_width_pixels_median": 25.069198608398438
+}

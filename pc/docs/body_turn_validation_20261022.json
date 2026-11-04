@@ -1,0 +1,52 @@
+{
+  "build": "body-turn-20261022",
+  "runtime_python_tests": 154,
+  "runner_compatibility_tests": 5,
+  "unity": {
+    "poses": 52,
+    "hand_edges": 62,
+    "max_projection_error_degrees": 0.01978234015405178,
+    "max_hand_edge_error_degrees": 0.0
+  },
+  "udp": {
+    "frames": 120,
+    "frames_with_rgb_wrist": 117,
+    "vmc_packets": 6730,
+    "initial_inference_ms": 78.28809996135533,
+    "body_turn_samples": [
+      [
+        "-44.6",
+        "-43.7",
+        "0.93"
+      ],
+      [
+        "-44.6",
+        "-44.9",
+        "0.90"
+      ],
+      [
+        "-46.0",
+        "-46.5",
+        "0.90"
+      ],
+      [
+        "-44.4",
+        "-44.8",
+        "0.93"
+      ]
+    ],
+    "interpretation": "Offline JPEG + synthetic matching NPU packets; verifies integration, not live motion accuracy."
+  },
+  "new_model_or_dependency": false,
+  "runner_ui_or_exe_changed": false,
+  "live_board_accuracy_verified": false,
+  "note": "Unity checks validate FK/VMC geometry; offline JPEG + synthetic matching NPU packets validate integration, not ground truth turning accuracy.",
+  "runtime_file_sha256": {
+    "pc/reference/motion_bridge.py": "4ce3737eb9bb5ba39107eaab0beb201c8fbef1a083a20b7d0c3124a99d354928",
+    "pc/start_3d_bridge.ps1": "a3663ee37243bac44e920f6348e7583e216fd1e4cc04d945b40da2473e2dc15d",
+    "pc/tests/test_body_turn_mapping.py": "40ed3ab69c7be48985f66cdc8dfd61b13c30b18a9ff5426f1315e3586d3b87aa",
+    "pc/tests/build_body_turn_cases.py": "b0f4b22c008282da302f05c0df7d2aec0b4301a13bf1df63d36b0cace5c24639",
+    "pc/unity/DigitalManAvatar/Assets/Editor/AvatarMappingCases.json": "f421ed8e8c2afb6e6871ff405ea0bebfba4905f5ac1f39553a4e22ca2c71c3cf",
+    "pc/docs/body_turn_20261022.md": "27a248e7474a333dba09eca5ed78cd14eb950bc3bd661688f4cf16222c321fc2"
+  }
+}

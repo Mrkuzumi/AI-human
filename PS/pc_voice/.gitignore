@@ -1,0 +1,4 @@
+.venv/
+voice.local.json
+dialogue.local.json
+__pycache__/
